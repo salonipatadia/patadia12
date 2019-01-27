@@ -1,0 +1,11 @@
+#to check the attendance
+#if >75%, he can sit for the exam otherwise no
+class student_attendance:
+    def attend(self,attendance):
+        if(attendance>75):
+            print("can sit for the exam")
+        else:
+            print("can't sit for the exam")
+attendance = float(input("enter ur %attendance"))
+obj=student_attendance()
+obj.attend(attendance)
