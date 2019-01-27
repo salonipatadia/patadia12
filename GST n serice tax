@@ -1,0 +1,11 @@
+class restaurant_bill :
+    def cal(self,bill_restaurant):
+          Stip=input("do u wish to pay the Stip? enter yes or no")
+          if(Stip=='yes'):
+           print("total bill ="+str(bill_restaurant+.18*bill_restaurant+.2*bill_restaurant))
+          else:
+           print("total bill ="+str(bill_restaurant+.18*bill_restaurant))
+
+bill=int(input("enter ur bill amount"))
+obj=restaurant_bill()
+obj.cal(bill)
